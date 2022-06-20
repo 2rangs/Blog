@@ -2,9 +2,6 @@
   <div class="wrapper">
     
 {{test}}
-제목
-내용
-이미지
 
 
 
@@ -18,7 +15,7 @@ export default defineComponent({
   name: 'HelloWorld',
 data() {
   return{
-    test : "asf"
+    test : "테스트"
   }
 }
 ,
@@ -31,6 +28,5 @@ mounted(){
 });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style>
 </style>
